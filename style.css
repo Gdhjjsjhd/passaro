@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #70c5ce;
+}
+
+#game-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+#gameCanvas{
+    border: 2px solid #000;
+    background-color: #70c5ce;
+}
+
+#gameOver{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: tomato;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#pntuacao{
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+#reiniciarButton{
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
